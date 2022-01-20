@@ -1,8 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    
-    
 }
 
 /*MAIN CONTAINER*/
@@ -18,7 +16,7 @@
     clear: both;
 }
 
-.section1 {
+.section {
     width: 100%;
     float: left;
 }
@@ -26,6 +24,7 @@
 .box-one {
     float: left;
     width: 31%;  
+    position: relative;
 }
 
 .img {
@@ -41,26 +40,32 @@
     width: 31%;
     margin-right: 25px;
     margin-left: 25px; 
+    position: relative;
 }
 
-.levis {
+.left-img {
     float: left; 
+    position: relative;
+    z-index: 5;
 }
 
-.guess {
+.central-img {
     float: left;
+    z-index: 5;
+    position: relative;
 }
 
-.blazer {
+.right-img {
     float: left;  
+    z-index: 5;
+    position: relative;
 }
 
 .box-three {
     float: left;
     width: 31%;
+    position: relative;
 }
-
-
 
 .title {
     font-size: 1em;
@@ -75,9 +80,6 @@
 .old-price {
     text-decoration: line-through;
 }
-.box-one {
-    position: relative;
-}
 
 .sconto {
     position: absolute;
@@ -88,8 +90,9 @@
     color: white;
     padding: 5px;
     font-family: Arial, Helvetica, sans-serif;
-    
+    z-index: 7;
 }
+
 .sostenibile {
     position: absolute;
     bottom: 80px;
@@ -99,26 +102,24 @@
     color: white;
     padding: 5px;
     font-family: Arial, Helvetica, sans-serif;
+    z-index: 7;
 }
-.box-two {
-    position: relative;
-}
-.box-three {
-    position: relative;
-}
+
 .heart {
     position: absolute;
     background-color: white;
     right: 0;
     top: 20px;
     padding: 10px;
+    z-index: 7;
 }
 
-
 /*SECOND SECTION*/
+
 .seconda {
     margin-top: 40px;
 }
+
 .sostenibile2 {
     position: absolute;
     bottom: 80px;
@@ -128,4 +129,32 @@
     color: white;
     padding: 5px;
     font-family: Arial, Helvetica, sans-serif;
+    z-index: 7;
 }
+
+/*HOVER*/
+
+ .img-hover {
+    position: absolute;
+    width: 100%;
+    height: 370px;
+    object-fit: cover;
+    object-position: center;
+    top: 0;
+    left: 0;
+    z-index: 3;
+ }
+
+ .left-img:hover {
+     z-index: 2;
+}
+
+.central-img:hover {
+    z-index: 2;
+}
+
+.right-img:hover {
+    z-index: 2;
+}
+
+
