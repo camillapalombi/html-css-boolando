@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    
 }
 
 /*MAIN CONTAINER*/
@@ -10,6 +11,8 @@
 }
 
 /*FIRST SECTION*/
+
+/*Clearfix*/
 .main-container::after {
     content: '';
     display: table;
@@ -21,6 +24,7 @@
     float: left;
 }
 
+/*Sinistra*/
 .box-one {
     float: left;
     width: 31%;  
@@ -34,24 +38,31 @@
     object-position: center;
     float: left;
 }
-
-.box-two {
-    float: left;
-    width: 31%;
-    margin-right: 25px;
-    margin-left: 25px; 
-    position: relative;
-}
-
 .left-img {
     float: left; 
     position: relative;
     z-index: 5;
 }
 
+/*Centro*/
+.box-two {
+    float: left;
+    width: 31%;
+    margin-right: 3.5%;
+    margin-left: 3.5%; 
+    position: relative;
+}
+
 .central-img {
     float: left;
     z-index: 5;
+    position: relative;
+}
+
+/*Destra*/
+.box-three {
+    float: left;
+    width: 31%;
     position: relative;
 }
 
@@ -61,12 +72,7 @@
     position: relative;
 }
 
-.box-three {
-    float: left;
-    width: 31%;
-    position: relative;
-}
-
+/*Caratteristiche degli articoli*/
 .title {
     font-size: 1em;
     font-weight: bold;
@@ -77,6 +83,7 @@
     color: red;
     font-weight: bold;
 }
+
 .old-price {
     text-decoration: line-through;
 }
@@ -116,8 +123,10 @@
 
 /*SECOND SECTION*/
 
-.seconda {
-    margin-top: 40px;
+.section2  {
+    width: 100%;
+    margin-top: 50px;
+    float: left;
 }
 
 .sostenibile2 {
