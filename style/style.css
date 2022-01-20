@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     
+    
 }
 
 /*MAIN CONTAINER*/
@@ -22,7 +23,7 @@
     float: left;
 }
 
-.boxone {
+.box-one {
     float: left;
     width: 31%;  
 }
@@ -34,7 +35,7 @@
     float: left;
 }
 
-.boxtwo {
+.box-two {
     float: left;
     width: 31%;
     margin-right: 25px;
@@ -53,14 +54,55 @@
     float: left;  
 }
 
-.boxthree {
+.box-three {
     float: left;
     width: 31%;
 }
 
 
 
+.title {
+    font-size: 1em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+.price {
+    color: red;
+    font-weight: bold;
+}
+.old-price {
+    text-decoration: line-through;
+}
+.box-one {
+    position: relative;
+}
+
+.sconto {
+    position: absolute;
+    bottom: 80px;
+    left: 0px;
+    background-color: rgb(243, 65, 65);
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+    
+}
+.sostenibile {
+    position: absolute;
+    bottom: 80px;
+    left: 50px;
+    background-color: rgb(9, 110, 68);
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+}
+.box-two {
+    position: relative;
+}
+.box-three {
+    position: relative;
+}
 
 
 
