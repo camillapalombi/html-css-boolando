@@ -1,15 +1,62 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    
 }
+
 /*MAIN CONTAINER*/
-
-
-
-
+.main-container {
+    width: 800px;
+    margin: 20px auto;  
+}
 
 /*FIRST SECTION*/
+.main-container::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.section1 {
+    width: 100%;
+    float: left;
+}
+
+.boxone {
+    float: left;
+    width: 31%;  
+}
+
+.img {
+    height: 370px;
+    object-fit: cover;
+    object-position: center;
+    float: left;
+}
+
+.boxtwo {
+    float: left;
+    width: 31%;
+    margin-right: 25px;
+    margin-left: 25px; 
+}
+
+.levis {
+    float: left; 
+}
+
+.guess {
+    float: left;
+}
+
+.blazer {
+    float: left;  
+}
+
+.boxthree {
+    float: left;
+    width: 31%;
+}
 
 
 
